@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Html basic layout desgin</title>
+	<style type="text/css">
+		body{
+			
+			font-family: arial;
+			background:black;
+			margin:0;
+			margin-top: 10px;
+			padding: 0;
+		}
+		.content{
+			border:1px solid black;
+			background:lightgray;
+			width: 1000px;
+			margin: 0 auto;
+		}
+		.header{
+			background:crimson;
+			height: 100px;
+		}
+		.header h1{
+			margin: 0px;
+			padding: 30px 0 0 20px;
+			color: white
+		}
+		.menu{
+			background:lightsalmon;
+		}
+		.menu ul{
+			margin: 0;
+			padding: 0;
+		}
+		.menu li{
+			display: inline-block;
+		}
+		.menu li a{
+			display:block;
+			padding: 10px 13px;
+			text-decoration: none;
+			color: white;
+		}
+		.menu li a:hover{
+			background-color: crimson;
+			color: white;
+		}
+		.main{
+			width: 800px;
+			float: left;
+			min-height: 400px;
+			padding: 10px;
+			box-sizing: border-box;
+		}
+		.sidebar{
+			background:lightblue;
+			width: 200px;
+			float: right;
+			min-height: 400px;
+		}
+		.sidebar ul{
+			display: block;
+
+		}
+		.sidebar a{
+			text-decoration: none;
+			color: black;
+		}
+		.sidebar h3{
+			text-align: center;
+		}
+		.footer{
+			background:purple;
+			padding: 5px 10px;
+			color: white;
+			text-align: center;
+			clear: both;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="content">
+		<div class="header">
+			<h1>HTML Basic Layout</h1>
+		</div>
+		<div class="menu">
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">About Us</a></li>
+				<li><a href="">Gallery</a></li>
+				<li><a href="">Contact Us</a></li>
+			</ul>
+		</div>
+		<div class="main">
+			<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%234285F4&ctz=Asia%2FQatar&showTitle=0&showPrint=0&src=aGF6aW1vaGFtbWFkcmFzZWxob3NzZW5AZ21haWwuY29t&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4ucWEjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23039BE5&color=%2333B679&color=%230B8043" style="border:solid 1px #777" width="750" height="400" frameborder="0" scrolling="no"></iframe>
+		</div>
+		<div class="sidebar">
+		    <h3>Side Bar</h3>			
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">About Us</a></li>
+				<li><a href="">Gallery</a></li>
+				<li><a href="">Contact Us</a></li>
+			</ul>
+		</div>
+		<div class="footer">
+			Learn Programming copright 2021.
+		</div>
+	</div>
+
+</body>
+</html>
